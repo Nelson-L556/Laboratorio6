@@ -231,3 +231,14 @@ p{
 .input-box input[type="submit"]:hover{
     background: rgb(26, 92, 26);
 }
+.requisitos {
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 800px;
+}
+.pie {
+margin-top: 100px;
+}
+.ayudaimg {
+    margin-left: 300px;
+}
