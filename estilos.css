@@ -7,6 +7,10 @@
     
 }
 
+body{
+    background: #cfc;
+}
+
 a, button{
     color: #edf0f1;
     font-size: 0.9em;
@@ -55,12 +59,76 @@ nav .enlaces a:hover::before{
 }
 
 /* INICIO */
+section{
+    text-align: justify;
+    position: absolute;
+}
 
+
+.img img{
+    width: 500px;
+    height: 500%;
+    float: left;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    margin: 0 10px;
+    transition: all .5s;
+}
+
+.img:hover img{
+    transform: scale(1.1);
+}
+
+h1{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+p{
+    position: relative;
+    top: 100px;
+    margin: 30px;
+    font-size: 1.4em;
+}
 
 /* NOSOTROS */
 
 
 /* ADOPCIÓN */
+/** GALERIA DE IMAGEN  */
+.gallery{
+    display: flex;
+}
+
+.gallery .column{
+    flex: 33%;
+}
+
+
+.gallery .column .imgContainer{
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.gallery .column img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .5s;
+}
+
+.gallery .column .imgContainer:hover img{
+    transform: scale(1.1);
+}
 
 
 /* CONTACTANOS */
